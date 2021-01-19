@@ -32,5 +32,5 @@ https://drive.google.com/file/d/1ytDmAlJjgBhdCH7AVvMgRixl4FyTpdN-/view?usp=shari
 >>> bts_model = BTS_CNN()
 >>> pred = bts_model.predict(img)
 >>> print(pred)
->>> "Jimin"
+Jimin
 ```
