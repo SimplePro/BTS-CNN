@@ -14,7 +14,7 @@ https://drive.google.com/file/d/1ytDmAlJjgBhdCH7AVvMgRixl4FyTpdN-/view?usp=shari
 ``` python
 >>> from pred_bts import BTS_CNN
 >>> from keras.preprocessing import image
->>> img = image.load_img("Jimin.jpg")
+>>> img = image.load_img("./Jimin.jpg")
 >>>
 >>> bts_model = BTS_CNN()
 >>> pred = bts_model.predict(img)
